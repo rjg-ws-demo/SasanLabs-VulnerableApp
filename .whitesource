@@ -11,7 +11,10 @@
     "displayMode": "diff"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "LOW",
+    "issueRepoName": "ws-issues",
+    "customLabels": ["WS"],
+    "assignees": ["randygeyer-ws"]
   },
     "remediateSettings": {
       "extends": ["github>whitesource/merge-confidence:beta"]
